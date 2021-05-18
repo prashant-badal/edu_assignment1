@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>edu_food</title>
+    <link href="1st.css" rel="stylesheet" />
+    <link href="edu_logo.png" rel="icon">
+</head>
+
+<body>
+    <div class="top">
+        <span id="edu">e!</span>
+        <div class="link">
+            <span id="login">Log In</span>
+            <span id="create">Create a new account</span>
+        </div>
+    </div>
+    <div class="header">
+        Breakfast place in Mumbai
+    </div>
+    <div>
+        <div class="left">
+            <div class="filteritem">
+                <div id="filter">Filter</div>
+                <div id="select">Select your Location</div>
+                <div id="selector">
+                    <select>
+                        <option>select your location</option>
+                        <option>Andheri</option>
+                        <option>Tilakpuri</option>
+                        <option>Shivaji Marg</option>
+                    </select>
+                </div>
+                <div class="meal">
+                    <div id="cuisine">Cuisine</div>
+                    <div class="labelitem">
+                        <input type="checkbox">
+                        <label>North Indian</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="checkbox">
+                        <label>South Indian</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="checkbox">
+                        <label>Chinese</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="checkbox">
+                        <label>Fast Food</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="checkbox">
+                        <label>Street Food</label>
+                    </div>
+                </div>
+                <div class="price">
+                    <div id="cost">Cost For Two </div>
+                    <div class="labelitem">
+                        <input type="radio" name="cost">
+                        <label>less than &#8377 500</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="radio" name="cost">
+                        <label> &#8377 500 to &#8377 1000 </label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="radio" name="cost">
+                        <label>&#8377 1000 to &#8377 1500</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="radio" name="cost">
+                        <label>&#8377 1500 to &#8377 2000</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="radio" name="cost">
+                        <label>&#8377 2000+</label>
+                    </div>
+                </div>
+
+                <div class="sort">
+                    <div class="labelitem">
+                        <div>Sort</div>
+                        <input type="radio" name="sort">
+                        <label>Price low to high</label>
+                    </div>
+                    <div class="labelitem">
+                        <input type="radio" name="sort">
+                        <label>Price high to low </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div id="item1" class="item">
+
+                <div class="shopimage">
+                    <img src="shutterstock_1154073754.png" alt="shop image" />
+                </div>
+                <div class="shopname">
+                    <div id="bakery">The Bake shop</div>
+                    <div id="for">Fort</div>
+                    <div id="address">Shop1, plot Chincholi</div>
+                </div>
+
+                <div id="path">
+                    <hr>
+                </div>
+                <div class="lowerleft">
+                    <div class="CUISINE">CUISINES:</div>
+                    <DIV class="COST">COST FOR TWO:</DIV>
+                </div>
+                <div class="lowerright">
+                    <div class="CUISINE">Bakery:</div>
+                    <DIV class="COST">&#8377 700</DIV>
+                </div>
+
+            </div>
+            <div id="item2" class="item">
+                <div class="shopimage">
+                    <img src="shutterstock_1154073754.png" alt="shop image" />
+                </div>
+                <div class="shopname">
+                    <div id="bakery">The Big cakery</div>
+                    <div id="for">Fort</div>
+                    <div id="address">Shop1, plot Chincholi</div>
+                </div>
+
+                <div id="path">
+                    <hr>
+                </div>
+                <div class="lowerleft">
+                    <div class="CUISINE">CUISINES:</div>
+                    <DIV class="COST">COST FOR TWO:</DIV>
+                </div>
+                <div class="lowerright">
+                    <div class="CUISINE">Bakery:</div>
+                    <DIV class="COST">&#8377 700</DIV>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
